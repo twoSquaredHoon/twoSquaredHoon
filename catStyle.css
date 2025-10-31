@@ -85,7 +85,7 @@ nav a:active {
 }
 
 dl {
-    background: #F5D6D6;
+    background: #b9b9b9;
     border: 2px solid #E53935;
     max-width: 600px;
     margin: 0 auto 3rem;
@@ -95,7 +95,7 @@ dl {
 
 dt {
     font-weight: bold;
-    color: #C62828;
+    color: #000000;
     margin-top: 0.5rem;
     font-size: 11px;
 }

@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tahoma', 'Verdana', sans-serif;
+    background: #D4A645;
+    color: #000;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #F9A825 0%, #FBC02D 50%, #F9A825 100%);
+    border-bottom: 2px solid #F57F17;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(180deg, #FFFDE7 0%, #FFF59D 50%, #FFEE58 100%);
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #F57F17;
+    border-bottom: 1px solid #F57F17;
+    color: #000;
+    transition: all 0.1s;
+}
+
+nav a:hover {
+    background: linear-gradient(180deg, #FFE0B2 0%, #FFB74D 50%, #FF9800 100%);
+}
+
+nav a:active {
+    background: linear-gradient(180deg, #FFEE58 0%, #FFF59D 50%, #FFFDE7 100%);
+    border-top: 1px solid #F57F17;
+    border-left: 1px solid #F57F17;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.container {
+    margin-top: 80px;
+    padding: 3rem 2rem;
+    min-height: calc(100vh - 80px);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #FFFDE7;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.travel-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+}
+
+.travel-card {
+    background: #fff;
+    border-top: 3px solid #FFFDE7;
+    border-left: 3px solid #FFFDE7;
+    border-right: 3px solid #F9A825;
+    border-bottom: 3px solid #F9A825;
+    overflow: hidden;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.travel-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.travel-card-title {
+    padding: 0.6rem 0.8rem;
+    margin: 0;
+    text-align: left;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    background: linear-gradient(180deg, #F9A825 0%, #FBC02D 50%, #F9A825 100%);
+    border-bottom: 2px solid #F57F17;
+    order: -1;
+}
+
+.travel-card img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    background: #D4A645;
+    border-bottom: 2px solid #FFF59D;
+}
+
+.references {
+    background: #FFF8DC;
+    border: 2px solid #FBC02D;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: inset 0 0 0 1px #fff, 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.references h2 {
+    font-size: 1.8rem;
+    color: #F9A825;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid #FBC02D;
+    padding-bottom: 0.5rem;
+}
+
+.references ul {
+    list-style: none;
+    padding: 0;
+}
+
+.references li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.references li::before {
+    content: '✈️';
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+}
+
+.references a {
+    color: #F57F17;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.references a:hover {
+    color: #FBC02D;
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.travel-facts {
+    background: #FFF8DC;
+    border: 2px solid #FBC02D;
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+    padding: 2rem;
+    box-shadow: inset 0 0 0 1px #fff, 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.travel-facts h2 {
+    font-size: 1.8rem;
+    color: #F9A825;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid #FBC02D;
+    padding-bottom: 0.5rem;
+}
+
+.travel-facts dl {
+    background: #fff;
+    border: 2px solid #FFEE58;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.travel-facts dt {
+    font-weight: bold;
+    color: #F9A825;
+    margin-top: 0.5rem;
+    font-size: 11px;
+}
+
+.travel-facts dt:first-child {
+    margin-top: 0;
+}
+
+.travel-facts dd {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+    font-size: 11px;
+}
+
+.travel-card {
+    animation: fadeIn 0.6s ease forwards;
+}
+
+.travel-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.travel-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.travel-card:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .travel-gallery {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

@@ -11,12 +11,16 @@ body {
     overflow-x: hidden;
 }
 
-.header h1 {
-    font-family: 'Georgia', serif;
-    font-size: 3rem;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 1rem;
+.intro-text {
+    color: #ffffff;
+    background-color: #7B1FA2;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid #9C27B0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
 }
 
 nav {

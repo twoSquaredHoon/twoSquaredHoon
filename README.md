@@ -1,16 +1,23 @@
-## Hi there 👋
+<h1 align="center">
+  Seunghoon Lee | Full-Stack Dev
+</h1>
 
-<!--
-**twoSquaredHoon/twoSquaredHoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Sophomore @ UW-Madison • CS
+  <br/>
+</p>
 
-Here are some ideas to get you started:
+## Technical Skills
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Platforms
+
+## Let's Connect
+- TwoSquaredHoon@gmail.com
+- [LinkedIn] (https://www.linkedin.com/in/seunghoon-lee0728)
+- [Portfolio] (https://github.com/)
+
+---
+<div>
+  <a href="https://github.com/TwoSquaredHoon">
+  </a>  
+</div>

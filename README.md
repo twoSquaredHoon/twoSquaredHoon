@@ -15,7 +15,7 @@ coming soon
 ### Languages
 [![My Skills](https://skillicons.dev/icons?i=java)](https://www.java.com)
 [![My Skills](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![My Skills](https://skillicons.dev/icons?i=cpp)](https://www.cprogramming.com/)
+[![My Skills](https://skillicons.dev/icons?i=cs)]([https://www.cprogramming.com/](https://learn.microsoft.com/en-us/dotnet/csharp/))
 [![My Skills](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![My Skills](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![My Skills](https://skillicons.dev/icons?i=bash)](https://www.gnu.org/software/bash/)

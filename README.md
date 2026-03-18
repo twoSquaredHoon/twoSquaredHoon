@@ -31,11 +31,6 @@ coming soon
 [![My Skills](https://skillicons.dev/icons?i=figma)](https://www.figma.com/)
 [![My Skills](https://skillicons.dev/icons?i=finalcutpro)](https://www.figma.com/)
 
-## ✨ Let's Connect
-- TwoSquaredHoon@gmail.com
-- [LinkedIn] (https://www.linkedin.com/in/seunghoon-lee0728)
-- [Portfolio] (https://github.com/)
-
 ---
 <p align="center">
   <img src="I_see_potential.jpeg" alt="i see potential!" width=300px>  
